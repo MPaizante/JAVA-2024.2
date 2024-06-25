@@ -18,7 +18,12 @@ public class Aula09EstruturaRepeticao02 {
             }
         }
         System.out.println("==============");
-
+        for (int i = 0; i < 4; i++) {
+            if (i % 2 == 0) {
+                continue;
+            }
+            System.out.println(i);
+        }
 
 
 
